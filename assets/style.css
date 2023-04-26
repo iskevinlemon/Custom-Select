@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+html{
+    scroll-behavior: smooth !important;
+}
+body{
+    font-family: 'Inter', sans-serif !important;
+}
+.mt-10vh{
+    margin-top: 10vh !important;
+}
+/* Custom Select CSS START */
+.cs-select{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    box-shadow: none !important;
+}
+.cs-select:focus{
+    border: 2px solid #495057 !important;
+}
+.cs-select-box{
+    width: 95% !important;
+}
+/* .cs-item{
+    border: 1px solid #495057 !important;
+} */
+.cs-item:focus{
+    background-color: #FFFFFF !important;
+    color: #495057 !important;
+}
+.cs-item:active{
+    background-color: #FFFFFF !important;
+    color: #495057 !important;
+}
+.cs-item:hover{
+    cursor: pointer !important;
+}
+/* Custom Select CSS END */
+
+textarea{
+    height: 400px !important;
+}
